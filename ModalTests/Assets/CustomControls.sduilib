@@ -1,0 +1,271 @@
+!UILibraryAsset
+Id: 89ca96a5-1462-4ac2-9f58-7e51f512ceda
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+PublicUIElements:
+    4f915334-8403-44e1-8e44-fef600c5d8f7: FantasyGrid
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 4f915334-8403-44e1-8e44-fef600c5d8f7
+    Parts:
+        -   UIElement: !Grid
+                Id: 223876c1-ee1b-4888-a758-e5d8f2e78853
+                DependencyProperties:
+                    1a223b65a56fd7279a7d5936816b8e1b~GridBase.RowPropertyKey: 2
+                    83f1a57c3b4e06c29d65e37de5a39702~GridBase.ColumnPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: BottomCenter
+                Children:
+                    cda6b35e2d36897de59fde7ef5a10d4b: !ContentDecorator ref!! 6713f5b4-0f1a-40de-909f-2a0f4a9ecaa3
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Grid
+                Id: 2a814440-2b07-4b33-bca5-1ccc2ea451e4
+                DependencyProperties:
+                    cc2e1f82da01a9683464f1f20ae7dd3c~GridBase.ColumnPropertyKey: 2
+                    a607ce56736b023effe4045467e41471~GridBase.RowPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: MiddleRight
+                Children:
+                    355099838583152fb9ab2f5c7a81dccd: !ContentDecorator ref!! 459c53ba-a64d-46fd-8de0-5c2661676cf1
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Grid
+                Id: 2eb49062-e624-4db7-a25c-f1e187891950
+                DependencyProperties:
+                    94260f69c61c34feb05f0055fe6553d7~GridBase.RowPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: MiddleLeft
+                Children:
+                    809161401c412dbb26727a66783be348: !ContentDecorator ref!! 9c50c78c-a89f-4e67-91a3-a901cc657eee
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !ContentDecorator
+                Id: 459c53ba-a64d-46fd-8de0-5c2661676cf1
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: MiddleRightBackground
+                Padding: {}
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: d063a769-c46d-4cf9-9bd1-248607527b97:MenuSprites
+                    CurrentFrame: 5
+        -   UIElement: !Grid
+                Id: 4f915334-8403-44e1-8e44-fef600c5d8f7
+                DependencyProperties: {}
+                BackgroundColor: {R: 171, G: 137, B: 109, A: 255}
+                CanBeHitByUser: true
+                Width: 600.0
+                Height: 600.0
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: FantasyGrid
+                Children:
+                    f17a066b9c00ae69997a7f516da3b3c6: !ImageElement ref!! cd81e9f7-92ac-4f06-a764-0e5ca78056d7
+                    4a8bbe952e1f25bd746d627cb9e1d027: !Grid ref!! cbb7c78a-1e65-4246-8764-8777a70ae88b
+                    2864c13ba8f89747afeffcf369a8c0ee: !ImageElement ref!! 97e204a2-deec-4814-8dde-6e58e085e208
+                    300a2cb98b3b4f2cfebce29a90c4b9a0: !Grid ref!! 2eb49062-e624-4db7-a25c-f1e187891950
+                    7e680ded069d2edd5948380256414455: !Grid ref!! 901d7f8c-0fac-4e71-b0be-3314ea3cdc5c
+                    24f394d33b24495f2039ef7b552fe2c6: !Grid ref!! 2a814440-2b07-4b33-bca5-1ccc2ea451e4
+                    7d0852aacbec7352aa6f7b47adf59789: !ImageElement ref!! 50bb9a00-027e-415e-92ec-1408de31a1c4
+                    3dadebce263a50af3377b662b4c03a0c: !Grid ref!! 223876c1-ee1b-4888-a758-e5d8f2e78853
+                    4605e176bc0bbea63ef4ff7492bb06c9: !ImageElement ref!! be6ffafa-4a51-4d88-8c94-80ee6a134aec
+                RowDefinitions:
+                    f306584ef64d79e2ae0feca69e8373ac:
+                        Type: Auto
+                    ac1c846f8492b128313a11a2ba3b0126: {}
+                    91da99b14f4f22e2531067952e9bf99d:
+                        Type: Auto
+                ColumnDefinitions:
+                    f1963b896295c8ef259bcbe0d66b00ad:
+                        MaximumSize: 3.4028235E+38
+                        Type: Auto
+                    dc0e572fe7ef16cbc304f309a2a00a19: {}
+                    2d0f90f89b37c4d90dd1f9eb056a5310:
+                        MaximumSize: 3.4028235E+38
+                        Type: Auto
+                LayerDefinitions: {}
+        -   UIElement: !ImageElement
+                Id: 50bb9a00-027e-415e-92ec-1408de31a1c4
+                DependencyProperties:
+                    aa2c2de3cba37260692ec33cd3e15110~GridBase.RowPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 32.0
+                Height: 32.0
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: BottomLeft
+                Source: !SpriteFromSheet
+                    Sheet: d063a769-c46d-4cf9-9bd1-248607527b97:MenuSprites
+                    CurrentFrame: 6
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ContentDecorator
+                Id: 6713f5b4-0f1a-40de-909f-2a0f4a9ecaa3
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: BottomCenterBackground
+                Padding: {}
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: d063a769-c46d-4cf9-9bd1-248607527b97:MenuSprites
+                    CurrentFrame: 7
+        -   UIElement: !ContentDecorator
+                Id: 67230cbc-011a-410d-8ab5-19bdd5e731a4
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: TopCenterBackground
+                Padding: {}
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: d063a769-c46d-4cf9-9bd1-248607527b97:MenuSprites
+                    CurrentFrame: 1
+        -   UIElement: !ContentDecorator
+                Id: 87e755eb-6a0a-49d7-b3d7-6013ddc380de
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ContentBackground
+                Padding: {}
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: d063a769-c46d-4cf9-9bd1-248607527b97:MenuSprites
+                    CurrentFrame: 4
+        -   UIElement: !Grid
+                Id: 901d7f8c-0fac-4e71-b0be-3314ea3cdc5c
+                DependencyProperties:
+                    71eaac78626201ffde50e597263deba7~GridBase.RowPropertyKey: 1
+                    a8871d95895b4acb8a32b1636a082923~GridBase.ColumnPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: MiddleCenter
+                Children:
+                    876055e1cf6af323721470bef0d264e1: !StackPanel ref!! ca629f70-566e-465e-9f60-0524681a9643
+                    28b631df402e153acbe1ab04969fc752: !ContentDecorator ref!! 87e755eb-6a0a-49d7-b3d7-6013ddc380de
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !ImageElement
+                Id: 97e204a2-deec-4814-8dde-6e58e085e208
+                DependencyProperties:
+                    de2de0e09cf1c80c4ae0aa3533eeffb1~GridBase.ColumnPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 32.0
+                Height: 32.0
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: TopRight
+                Source: !SpriteFromSheet
+                    Sheet: d063a769-c46d-4cf9-9bd1-248607527b97:MenuSprites
+                    CurrentFrame: 2
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ContentDecorator
+                Id: 9c50c78c-a89f-4e67-91a3-a901cc657eee
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: MiddleLeftBackground
+                Padding: {}
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: d063a769-c46d-4cf9-9bd1-248607527b97:MenuSprites
+                    CurrentFrame: 3
+        -   UIElement: !ImageElement
+                Id: be6ffafa-4a51-4d88-8c94-80ee6a134aec
+                DependencyProperties:
+                    e378118c9ea12a6d6d27fee2076b0779~GridBase.RowPropertyKey: 2
+                    2812618602d264835a2ce65556a08b36~GridBase.ColumnPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 32.0
+                Height: 32.0
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: BottomRight
+                Source: !SpriteFromSheet
+                    Sheet: d063a769-c46d-4cf9-9bd1-248607527b97:MenuSprites
+                    CurrentFrame: 8
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !StackPanel
+                Id: ca629f70-566e-465e-9f60-0524681a9643
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: GridContent
+                Children: {}
+        -   UIElement: !Grid
+                Id: cbb7c78a-1e65-4246-8764-8777a70ae88b
+                DependencyProperties:
+                    7550c13a0562d5d3bbc571151ce45dd1~GridBase.ColumnPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: TopCenter
+                Children:
+                    c0f010c50c76b833c7f7edafcfbe69c8: !ContentDecorator ref!! 67230cbc-011a-410d-8ab5-19bdd5e731a4
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !ImageElement
+                Id: cd81e9f7-92ac-4f06-a764-0e5ca78056d7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 32.0
+                Height: 32.0
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: TopLeft
+                Source: !SpriteFromSheet
+                    Sheet: d063a769-c46d-4cf9-9bd1-248607527b97:MenuSprites
+                Color: {R: 255, G: 255, B: 255, A: 255}

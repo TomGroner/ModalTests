@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModalTests.Windows", "ModalTests.Windows\ModalTests.Windows.csproj", "{63997849-F1C8-40C7-93F8-53C988FEF223}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModalTests", "ModalTests\ModalTests.csproj", "{7A341723-1072-47CB-913B-98BCE2A6B033}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63997849-F1C8-40C7-93F8-53C988FEF223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63997849-F1C8-40C7-93F8-53C988FEF223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63997849-F1C8-40C7-93F8-53C988FEF223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63997849-F1C8-40C7-93F8-53C988FEF223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A341723-1072-47CB-913B-98BCE2A6B033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A341723-1072-47CB-913B-98BCE2A6B033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A341723-1072-47CB-913B-98BCE2A6B033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A341723-1072-47CB-913B-98BCE2A6B033}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {305CFBB1-A290-4A4B-8DB8-97D73C5BCF8A}
+	EndGlobalSection
+EndGlobal

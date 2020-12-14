@@ -1,0 +1,71 @@
+!SpriteSheet
+Id: d063a769-c46d-4cf9-9bd1-248607527b97
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    ec46aabcd297f98119cbba3cb2663590:
+        Source: !file ../Resources/FantasyMenu.png
+        Name: TopLeft
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    bd304e9a3f4d052e2d4f10169c1a0caa:
+        Source: !file ../Resources/FantasyMenu.png
+        Name: TopCenter
+        TextureRegion: {X: 33, Y: 0, Width: 736, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    3f1a93478e7ae838bb794d0bb0e29a9d:
+        Source: !file ../Resources/FantasyMenu.png
+        Name: TopRight
+        TextureRegion: {X: 770, Y: 0, Width: 32, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    65036b513879a7841a0a6a721dbe0be4:
+        Source: !file ../Resources/FantasyMenu.png
+        Name: MiddleLeft
+        TextureRegion: {X: 0, Y: 33, Width: 32, Height: 536}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    3d007ab26de6b4643f75e8f64540d9aa:
+        Source: !file ../Resources/FantasyMenu.png
+        Name: MiddleCenter
+        TextureRegion: {X: 33, Y: 33, Width: 736, Height: 536}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    94e20a1e7c3f5d003e5885905a88f5ba:
+        Source: !file ../Resources/FantasyMenu.png
+        Name: MiddleRight
+        TextureRegion: {X: 770, Y: 33, Width: 32, Height: 536}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    09947ff2f2b767e544368fe1f61f8e71:
+        Source: !file ../Resources/FantasyMenu.png
+        Name: BottomLeft
+        TextureRegion: {X: 0, Y: 570, Width: 32, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    8e995b76d96e0d3fd9ba3a2c0e30b96e:
+        Source: !file ../Resources/FantasyMenu.png
+        Name: BottomCenter
+        TextureRegion: {X: 33, Y: 570, Width: 736, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    b076d71b8c16466c18bac1b81408cf3a:
+        Source: !file ../Resources/FantasyMenu.png
+        Name: BottomRight
+        TextureRegion: {X: 770, Y: 570, Width: 32, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
